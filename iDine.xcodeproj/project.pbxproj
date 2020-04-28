@@ -16,6 +16,11 @@
 		E618B05A24565C62008D3CD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E618B05824565C62008D3CD6 /* LaunchScreen.storyboard */; };
 		E618B06524565C62008D3CD6 /* iDineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E618B06424565C62008D3CD6 /* iDineTests.swift */; };
 		E618B07024565C62008D3CD6 /* iDineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E618B06F24565C62008D3CD6 /* iDineUITests.swift */; };
+		E672DA172457EA16006E7843 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E672DA162457EA16006E7843 /* Helper.swift */; };
+		E672DA1A2457EA2D006E7843 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = E672DA182457EA2D006E7843 /* Menu.swift */; };
+		E672DA1B2457EA2D006E7843 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = E672DA192457EA2D006E7843 /* Order.swift */; };
+		E672DA1D2457EA3C006E7843 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = E672DA1C2457EA3C006E7843 /* menu.json */; };
+		E672DA1F2458EF63006E7843 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E672DA1E2458EF63006E7843 /* ItemRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,11 @@
 		E618B06B24565C62008D3CD6 /* iDineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iDineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E618B06F24565C62008D3CD6 /* iDineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDineUITests.swift; sourceTree = "<group>"; };
 		E618B07124565C62008D3CD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E672DA162457EA16006E7843 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		E672DA182457EA2D006E7843 /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		E672DA192457EA2D006E7843 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		E672DA1C2457EA3C006E7843 /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
+		E672DA1E2458EF63006E7843 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +113,12 @@
 			children = (
 				E618B04A24565C60008D3CD6 /* AppDelegate.swift */,
 				E618B04C24565C60008D3CD6 /* SceneDelegate.swift */,
+				E672DA162457EA16006E7843 /* Helper.swift */,
+				E672DA182457EA2D006E7843 /* Menu.swift */,
+				E672DA192457EA2D006E7843 /* Order.swift */,
+				E672DA1C2457EA3C006E7843 /* menu.json */,
 				E618B05124565C60008D3CD6 /* ContentView.swift */,
+				E672DA1E2458EF63006E7843 /* ItemRow.swift */,
 				E618B05324565C62008D3CD6 /* Assets.xcassets */,
 				E618B05824565C62008D3CD6 /* LaunchScreen.storyboard */,
 				E618B05B24565C62008D3CD6 /* Info.plist */,
@@ -245,6 +260,7 @@
 			files = (
 				E618B05A24565C62008D3CD6 /* LaunchScreen.storyboard in Resources */,
 				E618B05724565C62008D3CD6 /* Preview Assets.xcassets in Resources */,
+				E672DA1D2457EA3C006E7843 /* menu.json in Resources */,
 				E618B05424565C62008D3CD6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,10 +286,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E672DA1A2457EA2D006E7843 /* Menu.swift in Sources */,
 				E618B04B24565C60008D3CD6 /* AppDelegate.swift in Sources */,
 				E618B05024565C60008D3CD6 /* iDine.xcdatamodeld in Sources */,
+				E672DA172457EA16006E7843 /* Helper.swift in Sources */,
 				E618B05224565C60008D3CD6 /* ContentView.swift in Sources */,
 				E618B04D24565C60008D3CD6 /* SceneDelegate.swift in Sources */,
+				E672DA1B2457EA2D006E7843 /* Order.swift in Sources */,
+				E672DA1F2458EF63006E7843 /* ItemRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
